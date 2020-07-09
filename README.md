@@ -1,1 +1,0 @@
-# lalitrupani.netlify.app
