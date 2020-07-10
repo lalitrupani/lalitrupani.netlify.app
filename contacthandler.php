@@ -10,7 +10,7 @@
   $email_Subject= ' Form Submission from website';
 
   $to= "geek@dr.com";
-  $headers = "From:" $.email_from \r\n;
+  $headers = "From:".$email_from\r\n;
  mail($to, $email_Subject, $email_body, $headers)
 
  header("Location: index.html?mailsend"); 
