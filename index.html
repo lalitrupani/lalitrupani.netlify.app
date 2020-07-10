@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="css/all.min.css">
     <!-- https://fontawesome.com/ -->
     <link rel="stylesheet" href="css/tooplate-style.css">
-<?php include 'contacthandler.php';
 <body class="tm-bg-dark">
     <main class="tm-container masonry">
         <div class="tm-bg-primary-dark tm-text-white tm-block-brand-inner">
@@ -104,7 +103,7 @@
                         I'm a great listner too... 
                     </h2>
                 </header>
-                <form action="contacthandler.php" class="tm-contact-form" method="POST">
+                <form action="contacthandler.php" class="tm-contact-form" method="POST" data-netlify="true">>
                     <div class="tm-form-group">
                         <input type="text" id="contact_name" name="contact_name" class="form-control" placeholder="Name" required/>
                     </div>
